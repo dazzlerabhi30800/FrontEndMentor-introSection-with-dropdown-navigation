@@ -11,6 +11,7 @@ const dropdown1 = document.querySelector('#dropdown1');
 const dropdown2 = document.querySelector('#dropdown2');
 
 document.addEventListener('DOMContentLoaded', imgResize);
+window.addEventListener('resize', imgResize);
 
 link1.addEventListener('click',() => {
     if(menu2.classList.contains('active')) {
