@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/style.css">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <div class="logo">
+      <img src="images/logo.svg" alt="logo">
+    </div>
+    <div class="menu__btn"><i class="fas fa-bars"></i></div>
+    <div class="nav__menu">
+      <div class="nav__list">
+        <div class="dropdown" data-dropdown id="dropdown1">
+          <button class="link link1" data-dropdown-button>Features <span class="arrow"><i class="fas fa-chevron-down" id="arrow1"></i></span></button>
+          <div class="dropdown__menu menu1">
+            <div class="dropdown__links">
+              <a href="#" class="link"><span class="nav__img"><img src="images/icon-todo.svg" alt="todo"></span>Todo List</a>
+              <a href="#" class="link"><span class="nav__img"><img src="images/icon-calendar.svg"  alt="calendar"></span>Calendar</a>
+              <a href="#" class="link"><span class="nav__img"><img src="images/icon-reminders.svg"  alt="reminder"></span>Reminder</a>
+              <a href="#" class="link"><span class="nav__img"><img src="images/icon-planning.svg"  alt="planning"></span>Planning</a>  
+            </div>
+          </div>
+        </div>
+        <div class="dropdown" id="dropdown2">
+          <button class="link link2">Company <span class="arrow"><i class="fas fa-chevron-down" id="arrow2"></i></span></button>
+          <div class="dropdown__menu menu2">
+            <div class="dropdown__links">
+              <a href="#" class="link">History</a>
+              <a href="#" class="link">Our Team</a>
+              <a href="#" class="link">Blog</a>
+            </div>
+          </div>
+        </div>
+
+        <a href="#" class="link">Careers</a>
+        <a href="#" class="link">About</a>
+
+      </div>
+
+      <!-- login and sign up button  -->
+      <div class="buttons">
+        <div class="login">Login</div>
+        <div class="register">Register</div>
+      </div>
+     
+    </div>
+  </div>
+
+  <div class="main">
+    <div class="container">
+      <div class="text__wrapper">
+        <div class="heading">
+          <h1>Make remote work</h1>
+        </div>
+        <div class="description">
+          <p>
+            Get your team in sync, not matter your location Streaming processes, create team rituals, and watch productivity soar.
+          </p>
+        </div>
+        <div class="learn__btn">
+          <button>Learn More</button>
+        </div>
+        <div class="brand__wrapper">
+          <img src="images/client-databiz.svg" alt="databiz">
+          <img src="images/client-audiophile.svg" alt="audiophile">
+          <img src="images/client-meet.svg" alt="meet">
+          <img src="images/client-maker.svg" alt="maker">
+        </div>
+      </div>
+
+      <!-- SVG Wrapper  -->
+      <div class="hero__img">
+        <img src="images/image-hero-mobile.png" alt="">
+      </div>
+
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+    <!-- <div class="container">
+      <h1 class="heading">Our best of the worlds in the world will be </h1>
+    </div>
+
+  Features
+  Company
+  Careers
+  About
+
+  Login
+  Register
+
+  Make remote work
+
+  Get your team in sync, no matter your location. Streamline processes, 
+  create team rituals, and watch productivity soar.
+
+  Learn more -->
+  
+ <script src="main.js"></script> 
+</body>
+</html>
