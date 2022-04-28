@@ -100,7 +100,11 @@ body {
     justify-self: center;
     font-size: 1.3rem;
     margin-top: .2rem;
-    color: var(--Almost-Black);
+    color: rgb(92, 92, 92);
+    transition : color 150ms ease-in-out;
+}
+.nav__list>a:hover {
+    color : var(--Almost-Black);
 }
 
 .dropdown {
@@ -124,6 +128,11 @@ body {
     cursor: pointer;
     padding: .2rem .3rem;
     background: none;
+    color : rgb(92, 92, 92);
+    transition : color 150ms ease-in-out;
+}
+.dropdown>button:hover {
+    color : rgb(7, 7, 7);
 }
 
 .dropdown__menu {
@@ -197,6 +206,11 @@ body {
     /* background : blue; */
     font-size: 1rem;
     margin-bottom: .5rem;
+    color : rgb(87, 85, 85);
+    transition : color 150ms ease-in-out;
+}
+.login:hover {
+    color : var(--Almost-Black);
 }
 
 .register {
@@ -472,6 +486,7 @@ body {
         /* background : red; */
         opacity: 1;
         margin-top: .2rem;
+        margin-right : 1.1rem;
     }
 
     .login {
